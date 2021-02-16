@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MY FIRST WEB PAGE </title>
+	<hr >
+</head>
+
+<body>
+	<h1 > Registration form </h1>
+<hr width="80%">
+<br>
+<br>
+	<div id="reg-form">
+		 <form action="" method=" ">
+		 	<label for="first-name"> First Name :</label>
+		 	<input type="text" name="First-name " placeholder="vivek" required= "">
+		 	<label for="l ast-Name"> Last Name :</label>
+		 	<input type="text" name="First-name " placeholder="enter" required= "">
+<div>
+	
+	<label for="gender-male ">Male </label>
+	<input type="radio" name="gender -choice" value="choice-1" >
+
+	<label for="gender-female">Female </label>
+	<input type="radio" name="gender -choice" value="choice-2" >
+	 
+</div>
+
+<div>
+	
+	<label for="email ">Gmail </label>
+	<input type="email" name="email" placeholder="xyz@gmail.com" >
+	<label for="password">Password</label>
+	<input type="password" name="password" >
+</div>
+<div>
+	<label for="Month">Birthday </label>
+	<select name="Month">
+		<option value="0" selected disabled >Month</option>
+		<option value="1"> January</option>
+		<option value="2">febuary </option>
+		<option value="3">March </option>
+		<option value="4">april </option>
+		<option value="5">may </option>
+		<option value="6"> june</option>
+		<option value="7">july </option>
+		<option value="8">august</option>
+		<option value="9">septmer</option>
+		<option value="10"> october</option>
+		<option value="11"> november</option>
+		<option value="12"> december</option> 
+	
+
+	</select>
+</div>
+<label for="agree"> I agree to all the conditions </label>
+<input type="checkbox" name="agree">
+<button>Submit </button>
+		 </form>
+	</div>
+
+	<table> 
+		<thead> Information</thead>
+		<br>
+
+		<tr>Name </tr> 
+		<tr>Email </tr>
+		<tbody> <td>Vivek</td>
+			<td>vivekmail</td>
+		</tbody>
+	</table>
+</body>
+</html>
